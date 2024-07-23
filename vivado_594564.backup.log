@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Nov 24 17:04:52 2023
+# Process ID: 594564
+# Current directory: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent592220 C:\Users\flandc\OneDrive\MyFiles\@RPI\CoCO\Vivado_Projects\studio6\studio6.xpr
+# Log file: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/vivado.log
+# Journal file: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+add_files -norecurse {C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver3.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Toplevel.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver4.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Counter_4bit.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/clock_divider.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver2.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver1.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files {C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver1.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver2.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver3.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver4.vhd}
+add_files -norecurse {C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver3.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Toplevel.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver4.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Counter_4bit.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/clock_divider.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver2.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Display_Driver1.vhd}
+WARNING: [filemgmt 56-12] File 'C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Toplevel.vhd' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/Counter_4bit.vhd' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/project_6/project_6.srcs/sources_1/new/clock_divider.vhd' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/LEDdisplay.vhd
+update_compile_order -fileset sources_1
+file mkdir C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.srcs/constrs_1
+file mkdir C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.srcs/constrs_1/new
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.srcs/constrs_1/new/studio6_constraints.xdc w ]
+add_files -fileset constrs_1 C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.srcs/constrs_1/new/studio6_constraints.xdc
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/LEDdisplay.vhd" into library xil_defaultlib [C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/LEDdisplay.vhd:1]
+[Sat Nov 25 17:25:25 2023] Launched synth_1...
+Run output will be captured here: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/synth_1/runme.log
+launch_runs impl_1
+[Sat Nov 25 17:26:06 2023] Launched impl_1...
+Run output will be captured here: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/impl_1/runme.log
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1
+[Sat Nov 25 17:53:59 2023] Launched synth_1...
+Run output will be captured here: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/synth_1/runme.log
+[Sat Nov 25 17:53:59 2023] Launched impl_1...
+Run output will be captured here: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/impl_1/runme.log
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1
+[Sat Nov 25 18:00:29 2023] Launched synth_1...
+Run output will be captured here: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/synth_1/runme.log
+[Sat Nov 25 18:00:29 2023] Launched impl_1...
+Run output will be captured here: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/impl_1/runme.log
+create_project Studio_6 C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6 -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+file mkdir C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/clock_divider.vhd w ]
+add_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/clock_divider.vhd
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Counter_4bit.vhd w ]
+add_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Counter_4bit.vhd
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver3.vhd w ]
+add_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver3.vhd
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/LEDdisplay.vhd w ]
+add_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/LEDdisplay.vhd
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver4.vhd w ]
+add_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver4.vhd
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Toplevel.vhd w ]
+add_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Toplevel.vhd
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver2.vhd w ]
+add_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver2.vhd
+close [ open C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver1.vhd w ]
+add_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver1.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+current_project studio6
+current_project Studio_6
+current_project studio6
+current_project Studio_6
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+undo
+INFO: [Common 17-17] undo 'current_project Studio_6'
+current_project Studio_6
+undo
+INFO: [Common 17-17] undo 'current_project Studio_6'
+current_project Studio_6
+current_project studio6
+current_project Studio_6
+update_compile_order -fileset sources_1
+current_project studio6
+current_project Studio_6
+update_compile_order -fileset sources_1
+current_project studio6
+current_project Studio_6
+remove_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver2.vhd
+remove_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver3.vhd
+remove_files C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Studio_6/Studio_6.srcs/sources_1/new/Display_Driver4.vhd
+current_project studio6
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 25 19:45:01 2023...
+close_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 934.918 ; gain = 0.000
+add_files -norecurse {C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Display_Driver4.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Display_Driver3.vhd C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/Display_Driver2.vhd}
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 25 19:45:49 2023...

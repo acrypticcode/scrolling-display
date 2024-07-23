@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Jul 23 00:01:14 2024
+# Process ID: 15808
+# Current directory: C:/Users/flandc/OneDrive/MyFiles/@RPI/@Fall 2023/CoCO/Vivado_Projects/studio6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25712 C:\Users\flandc\OneDrive\MyFiles\@RPI\@Fall 2023\CoCO\Vivado_Projects\studio6\studio6.xpr
+# Log file: C:/Users/flandc/OneDrive/MyFiles/@RPI/@Fall 2023/CoCO/Vivado_Projects/studio6/vivado.log
+# Journal file: C:/Users/flandc/OneDrive/MyFiles/@RPI/@Fall 2023/CoCO/Vivado_Projects/studio6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/flandc/OneDrive/MyFiles/@RPI/@Fall 2023/CoCO/Vivado_Projects/studio6/studio6.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 798.102 ; gain = 114.957
+update_compile_order -fileset sources_1

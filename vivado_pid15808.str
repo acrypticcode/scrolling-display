@@ -1,0 +1,78 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 15808
+
+Current time: 	7/23/24 12:01:40 AM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	flandc
+User home directory: C:/Users/flandc
+User working directory: C:/Users/flandc/OneDrive/MyFiles/@RPI/@Fall 2023/CoCO/Vivado_Projects/studio6
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/flandc/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/flandc/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	212 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 506 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\flandc\OneDrive\MyFiles\@RPI\@Fall 2023\CoCO\Vivado_Projects\studio6\studio6.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/flandc/OneDrive/MyFiles/@RPI/@Fall 2023/CoCO/Vivado_Projects/studio6/studio6.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 40 MB (+39156kb) [00:00:08]
+// [Engine Memory]: 423 MB (+291674kb) [00:00:08]
+// Tcl Message: open_project {C:/Users/flandc/OneDrive/MyFiles/@RPI/@Fall 2023/CoCO/Vivado_Projects/studio6/studio6.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 487 MB (+45416kb) [00:00:10]
+// [GUI Memory]: 48 MB (+6235kb) [00:00:11]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 508 MB. GUI used memory: 32 MB. Current time: 7/23/24 12:01:42 AM EDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: studio6; location: C:/Users/flandc/OneDrive/MyFiles/@RPI/@Fall 2023/CoCO/Vivado_Projects/studio6; part: xc7a35tcpg236-1
+// [Engine Memory]: 520 MB (+9072kb) [00:00:18]
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 51 MB (+1266kb) [00:00:46]

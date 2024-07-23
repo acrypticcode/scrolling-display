@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Nov 25 18:00:29 2023
+# Process ID: 880964
+# Current directory: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/synth_1
+# Command line: vivado.exe -log Toplevel.vds -mode batch -messageDb vivado.pb -notrace -source Toplevel.tcl
+# Log file: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/synth_1/Toplevel.vds
+# Journal file: C:/Users/flandc/OneDrive/MyFiles/@RPI/CoCO/Vivado_Projects/studio6/studio6.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Toplevel.tcl -notrace
